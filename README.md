@@ -103,8 +103,8 @@ All infrastructure is provisioned via Terraform rather than manually through the
   
 - Failover Tests and Health Checks
   
-     ![Architecture Diagram](screenshots/athena_query_1.png)
-     ![Architecture Diagram](screenshots/athena_query_2.png)
+     ![Architecture Diagram](screenshots/healthcheck.png)
+     ![Architecture Diagram](screenshots/dns_check.png)
 
 ---
 
