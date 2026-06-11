@@ -91,7 +91,7 @@ All infrastructure is provisioned via Terraform rather than manually through the
 
 - Search Function:
   
-   ![Architecture Diagram](screenshots/search_weather.png)
+   ![Architecture Diagram](screenshots/search_function.png)
   
 - S3 Bucket Configured:
   
