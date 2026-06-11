@@ -81,28 +81,30 @@ All infrastructure is provisioned via Terraform rather than manually through the
 
 ## Screenshots
 
-- Python Script Running:
+- Weather App Running with Custom Domain:
   
-   ![Architecture Diagram](screenshots/python_script.png)
+   ![Architecture Diagram](screenshots/custom_domain.png)
+
+- Local Weather Function:
   
-- Kinesis Data Streams console showing incoming records:
+   ![Architecture Diagram](screenshots/local_weather.png)
+
+- Search Function:
   
-   ![Architecture Diagram](screenshots/kinesis_1.png)
-   ![Architecture Diagram](screenshots/kinesis_2.png)
+   ![Architecture Diagram](screenshots/search_weather.png)
   
-- Lambda invocation logs in CloudWatch
+- S3 Bucket Configured:
   
-    ![Architecture Diagram](screenshots/lambda_log_1.png)
-    ![Architecture Diagram](screenshots/lambda_log_2.png)
+   ![Architecture Diagram](screenshots/s3_bucket.png)
   
-- Athena query results against S3 data
+- Microsoft Azure Storage Configured
+  
+    ![Architecture Diagram](screenshots/microsoft_storage.png)
+  
+- Failover Tests and Health Checks
   
      ![Architecture Diagram](screenshots/athena_query_1.png)
      ![Architecture Diagram](screenshots/athena_query_2.png)
-   
-- SNS alert email/SMS received
-  
-    ![Architecture Diagram](screenshots/sns_subscription.png)
 
 ---
 
